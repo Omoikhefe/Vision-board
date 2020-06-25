@@ -1,0 +1,70 @@
+body{
+    background-color: #E8E8E8;
+}
+
+#vision-board {
+    width: 1200px;
+    height: 850px;
+    overflow: auto; 
+    background-image: url('../img/background.png');/*../ because it is in another folder and this is css*/
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700px;
+    font-size: 20px;
+    background-size: cover;
+    margin: 50px auto; 
+}
+
+.block {
+    float: left;
+    width: 400px;
+    box-sizing: border-box;
+}
+
+.small-block {
+    height: 210px;
+    padding: 20px 40px;
+}
+
+.large-block{
+    height: 430px;
+    padding: 70px 40px;
+}
+
+.middle {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.light-bg {
+    background-color: white;
+}
+
+.dark-bg {
+    background-color: #3B3B3B;
+}
+
+.style-one {
+    color: white;
+    font-size: 30px;
+}
+
+.style-two {
+    font-family: 'Permanent Marker', cursive;
+    font-weight: normal;
+}
+
+.highlight {
+    background-color: yellow;
+    padding: 5px 15px;
+    font-size: 18px; 
+}
+
+strong {
+    font-size: 38px;
+    text-transform: none;
+    line-height: 38px;
+}
